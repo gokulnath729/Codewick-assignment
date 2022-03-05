@@ -1,0 +1,108 @@
+.heading {
+  font-size: 65px;
+  line-height: 110%;
+  /* width: 60%; */
+}
+
+.sub-para {
+  font-size: 14px;
+  line-height: 160%;
+  width: 70%;
+  margin: 40px 0 15px 0;
+}
+
+.sub-main-cont {
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 2px solid #272829;
+  box-shadow: inset 2px 2px 40px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  display: flex;
+  padding: 60px 50px;
+  width: 70%;
+  margin: 50px 0px;
+}
+
+.sub-main-text {
+  font-size: 35px;
+  line-height: 130%;
+}
+
+.phone {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  right: 70px;
+  top: 2340px;
+}
+
+.feature-card {
+  background: #212121;
+  box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25),
+    -9px -9px 10px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  margin: 0px 20px;
+  padding: 40px 25px;
+  width: 380px;
+}
+
+.testi-card {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 4% 5%;
+  width: 620px;
+  height: 300px;
+  margin-right: 45px;
+  background: #212121;
+  box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.25),
+    -9px -9px 10px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+}
+
+.list-scroll {
+  display: flex;
+  position: absolute;
+  /* overflow-x: scroll; */
+  /* width: 78vw; */
+}
+
+.testi-desc {
+  font-size: 16px;
+  width: 70%;
+  margin: 20px 10px;
+  line-height: 180%;
+}
+.mail-input {
+  width: 35vw;
+  background: radial-gradient(38.2% 50% at 50% 50%, #2e3134 0%, #292b2e 100%);
+  border: 1px solid #272829;
+  box-shadow: inset 2px 2px 25px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  padding: 15px 25px;
+  font-size: 16px;
+  margin-left: 45px;
+}
+
+.join-us {
+  background: #282828;
+  box-shadow: 4px 3px 8px rgba(0, 0, 0, 0.25),
+    -3px -3px 8px rgba(75, 93, 104, 0.1);
+  border-radius: 50px;
+  position: absolute;
+  top: 8px;
+  right: 30px;
+  width: 100px;
+  height: 38px;
+  text-align: center;
+  padding: 8px 4px;
+  font-size: 16px;
+}
+
+.icon-cont {
+  background: #282828;
+  box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  padding: 8px;
+  margin: 0 10px;
+}
